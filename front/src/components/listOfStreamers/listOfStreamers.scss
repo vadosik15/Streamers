@@ -1,0 +1,65 @@
+ul {
+  padding: 0;
+}
+
+.list-streamers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+
+  @media (max-width: 1160px) {
+    width: 100%;
+  }
+}
+
+
+.voute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-img {
+    object-fit: contain;
+    width: 50px;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}
+
+.streamer {
+
+  &-point {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    justify-content: space-around;
+    max-height: 100px;
+    padding: 10px 30px;
+    max-width: 100%;
+    background: rgb(48, 5, 177);
+    background: linear-gradient(9deg, rgba(48, 5, 177, 1) 0%, rgba(57, 221, 254, 1) 100%, rgba(10, 10, 101, 1) 100%);
+    border-radius: 10px;
+    transition: 0.3s;
+
+    &:hover {
+      box-shadow: 0 0 10px black;
+      transform: scale(1.1);
+    }
+
+    &__image {
+      object-fit: contain;
+      max-width: 100px;
+    }
+  }
+
+  &-nick {
+    width: 100%;
+    font-size: 30px;
+  }
+}

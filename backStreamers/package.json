@@ -1,0 +1,20 @@
+{
+  "name": "backStreamers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongoose": "^7.3.1",
+    "react-router-dom": "^6.14.1",
+    "websocket": "^1.0.34",
+    "ws": "^8.13.0"
+  }
+}
